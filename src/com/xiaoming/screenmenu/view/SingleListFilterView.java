@@ -1,4 +1,4 @@
-package com.xiaoming.dropdownmenu.view;
+package com.xiaoming.screenmenu.view;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
-import com.xiaoming.dropdownmenu.R;
-import com.xiaoming.dropdownmenu.view.ExpandMenuView.ViewBaseAction;
+import com.xiaoming.screenmenu.R;
+import com.xiaoming.screenmenu.view.ExpandMenuView.ViewBaseAction;
 
 /**
  * Copyright 2016 CoderDream's Eclipse

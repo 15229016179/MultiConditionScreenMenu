@@ -13,7 +13,7 @@
         android:background="@color/them_brown"
         />
     
-    <com.xiaoming.dropdownmenu.view.ExpandMenuView
+    <com.xiaoming.screenmenu.view.ExpandMenuView
         android:id="@+id/expandTabView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
