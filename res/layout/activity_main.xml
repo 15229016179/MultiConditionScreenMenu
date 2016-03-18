@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="DropDownMenu"
+        android:textColor="@color/transparency"
+        android:textSize="16sp"
+        android:background="@color/them_brown"
+        />
+    
+    <com.xiaoming.dropdownmenu.view.ExpandMenuView
+        android:id="@+id/expandTabView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/them_brown"
+        android:layout_below="@id/title"
+        />
+    
+    <ListView 
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/expandTabView"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/bg_gray"
+        android:divider="@color/them_brown"
+        android:dividerHeight="1px"
+        />
+
+</RelativeLayout>
